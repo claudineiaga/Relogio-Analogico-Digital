@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Relógio Analógico Animado</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="relogio">
+            <div class="circulo" style="--clr:#FF7F50" id="sg"><i></i></div>
+            <div class="circulo circulo2" style="--clr:#00FFFF" id="mn"><i></i></div>
+            <div class="circulo circulo3" style="--clr:#EE82EE" id="hr"><i></i></div>
+            <span style="--i:1;"><b>1</b></span>
+            <span style="--i:2;"><b>2</b></span>
+            <span style="--i:3;"><b>3</b></span>
+            <span style="--i:4;"><b>4</b></span>
+            <span style="--i:5;"><b>5</b></span>
+            <span style="--i:6;"><b>6</b></span>
+            <span style="--i:7;"><b>7</b></span>
+            <span style="--i:8;"><b>8</b></span>
+            <span style="--i:9;"><b>9</b></span>
+            <span style="--i:10;"><b>10</b></span>
+            <span style="--i:11;"><b>11</b></span>
+            <span style="--i:12;"><b>12</b></span>
+        </div>
+        <div id="tempo">
+            <div id="horas" style="--clr:#EE82EE"></div>
+            <div id="minutos" style="--clr:#00FFFF"></div>
+            <div id="segundos" style="--clr:#FF7F50"></div>
+            <div id="ampm" style="--clr:#fff"></div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>
